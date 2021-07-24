@@ -1,0 +1,2 @@
+# Data-Visualisation-with-numpy-pandas-and-seaborn
+The main aim of this project is to show how women in our society are suffering.The dataset used for this analysis was taken from https://www.kaggle.com/greeshmagirish/crime-against-women-20012014-india. The most powerful tools for data analysis used in this project are the packages Numpy and Pandas, and to visualize and explore the data: Matplotlib and Seaborn.
