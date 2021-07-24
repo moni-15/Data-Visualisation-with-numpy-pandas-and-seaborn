@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crime Against Women 2001-2014 (India) | Kaggle</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Crimes Committed Against Women in India" />
+    <meta name="turbolinks-cache-control" content="no-cache" />
+        <meta name="keywords" content="social issues and advocacy,crime,india" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#008ABC" />
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations()
+                .then(function(registrations) {
+                    for (let registration of registrations) {
+                        registration.unregister();
+                    }
+                })
+                .catch(function(err) {
+                    console.error("Service worker unregister failed: ", err);
+                });
+        }
+    </script>
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" type="text/javascript">
+        window["pageRequestStartTime"] = 1618842313341;
+        window["pageRequestEndTime"] = 1618842313442;
+        window["initialPageLoadStartTime"] = new Date().getTime();
+    </script>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons" rel="stylesheet" type='text/css' />
+        <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=4250284326607575ff64" />
+        <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=025d124b7c112e182d32" />
+    
+    
+ 
+    
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+    
+    
+        <meta property="og:url" content="https://kaggle.com/greeshmagirish/crime-against-women-20012014-india" />
+        <meta property="og:title" content="Crime Against Women 2001-2014 (India)" />
+        <meta property="og:description" content="Crimes Committed Against Women in India" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/423357/807380/cdafc0a96a9087212c5dca735d256af9/dataset-card.jpg?t=2019-12-03-11-45-31" />
+        <meta property="fb:app_id" content="2665027677054710" />
+
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kaggledatasets" />
+    
+
+    
+    
+        <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Crime Against Women 2001-2014 (India)","description":"This data is collated from https://data.gov.in. It has state-wise and district level data on the various crimes committed against women between 2001 to 2014. Some crimes that are included are Rape, Kidnapping and Abduction, Dowry Deaths etc. ","url":"https://www.kaggle.com/greeshmagirish/crime-against-women-20012014-india","version":1,"keywords":["subject, people and society, social issues and advocacy","subject, people and society, law, government, crime","geography and places, asia, india"],"license":{"@type":"CreativeWork","name":"Other (specified in description)","url":""},"identifier":["423357"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Greeshma","url":"https://www.kaggle.com/greeshmagirish","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3474868-kg.JPG"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/greeshmagirish/crime-against-women-20012014-india/download","contentSize":"178060 bytes"}],"commentCount":0,"dateModified":"2019-11-22T10:53:35.103","discussionUrl":"https://www.kaggle.com/greeshmagirish/crime-against-women-20012014-india/discussion","alternateName":"Crimes Committed Against Women in India","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/423357/807380/cdafc0a96a9087212c5dca735d256af9/dataset-card.jpg?t=2019-12-03-11-45-31","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":1074},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":7266},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":34}]}</script>
+    
+
+    
+    
+    
+<script nonce="zNiT1VXVeC/FKhU0tqzVQg==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8LdUzqlsSWBPr4Ce3rb9VL9h14zcm0mRSsTTd8TMLgT1PYaHxbyqznzQHxHRr2wT56fNagWPFUAAnyXTz71Dn7dlO8TY4D57qFYL6eXiR-QsWPg87TnLD78MLCkgThPPp6eNTW9B2kmC_A4wK70SpH0',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTg4NDMyMTMsIlVzZXJJZCI6MH0.e0V-jEC3qfPIyA2vE0MWsywMRMTAEJigck2o7XviFAU',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        mdeImageUploader: true,
+        
+        enableRapidash: true, 
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="zNiT1VXVeC/FKhU0tqzVQg==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+        <script nonce="zNiT1VXVeC/FKhU0tqzVQg==">window['useKaggleAnalytics'] = true;</script>
+
+    <script id="gapi-target" nonce="zNiT1VXVeC/FKhU0tqzVQg==" src="https://apis.google.com/js/api.js" defer async></script>
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" src="/static/assets/runtime.js?v=d8d313dbe537762368bf" data-turbolinks-track="reload"></script>
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" src="/static/assets/vendor.js?v=2d09430da843de0c212e" data-turbolinks-track="reload"></script>
+    <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" src="/static/assets/app.js?v=44a2826b78958e22e1d1" data-turbolinks-track="reload"></script>
+        <script nonce="zNiT1VXVeC/FKhU0tqzVQg==" type="text/javascript">
+            window.kaggleStackdriverConfig = {
+                key: 'AIzaSyDANGXFHtSIVc51MIdGwg4mQFgm3oNrKoo',
+                projectId: 'kaggle-161607',
+                service: 'web-fe',
+                version: 'ci',
+                context: {
+                    user: '0',
+                },
+            };
+        </script>
+</head>
+<body data-turbolinks="false">
+    <main>
+        
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="zNiT1VXVeC/FKhU0tqzVQg==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+
+<div data-component-name="DatasetContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="zNiT1VXVeC/FKhU0tqzVQg==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"pageMessages":[],"discussion":{"canDownvote":false,"dataUrl":"/forums/435865/topics.json","id":435865,"isRootLevel":false,"showSubscribeButton":false,"isSubscribed":false,"subscription":"unsubscribe","initialTopics":null,"paramValues":{"category":"all","page":1,"search":null,"group":"all","sortBy":"hot"}},"currentTab":"home","newTopic":{"allowAttachments":false,"authorRanking":null,"authorTier":"novice","authorType":"topic","forumId":435865,"parentName":"Crime Against Women 2001-2014 (India)","parentUrl":"/greeshmagirish/crime-against-women-20012014-india/discussion"},"categories":{"type":"dataset","tags":[{"id":16453,"name":"social issues and advocacy","fullPath":"subject \u003e people and society \u003e social issues and advocacy","listingUrl":"/datasets?group=public\u0026tagids=16453","description":null,"datasetCount":1019,"competitionCount":0,"notebookCount":73,"tagUrl":"/tags/social-issues-and-advocacy","displayName":"Social Issues and Advocacy","fontAwesomeIcon":""},{"id":11104,"name":"crime","fullPath":"subject \u003e people and society \u003e law \u003e government \u003e crime","listingUrl":"/datasets?group=public\u0026tagids=11104","description":"A crime is an unlawful act punishable by a state or other authority. Explore datasets, kernels, and competitions related to white collar crime, global terrorism, and more in this tag.","datasetCount":845,"competitionCount":1,"notebookCount":463,"tagUrl":"/tags/crime","displayName":"Crime","fontAwesomeIcon":"balance-scale"},{"id":3023,"name":"india","fullPath":"geography and places \u003e asia \u003e india","listingUrl":"/datasets?group=public\u0026tagids=3023","description":"This tag will take you to the wonderful land of datasets and kernels related to India. You will find topics that range far and wide. There\u0027s education, travel, weather, and crime, too.","datasetCount":437,"competitionCount":0,"notebookCount":359,"tagUrl":"/tags/india","displayName":"India","fontAwesomeIcon":""}]},"upvoteSuggestion":{"voteCount":34,"medalVoteCount":11,"upVoteUrl":"/greeshmagirish/crime-against-women-20012014-india/vote","upVoters":[{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1510728-kg.png","displayName":"Yashvi Patel","profileUrl":"/yashvi","tier":"Master","tierInt":3,"userId":1510728,"userName":"yashvi"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1516874-kg.jpg","displayName":"Maiia Bikmetova","profileUrl":"/amidala","tier":"Expert","tierInt":2,"userId":1516874,"userName":"amidala"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1842648-kg.jpg","displayName":"Sugandh ","profileUrl":"/sugandhkhobragade","tier":"Expert","tierInt":2,"userId":1842648,"userName":"sugandhkhobragade"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3592260-kg.jpg","displayName":"Balaka Biswas ","profileUrl":"/balaka18","tier":"Expert","tierInt":2,"userId":3592260,"userName":"balaka18"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4484287-kg.jpg","displayName":"Niraj","profileUrl":"/nirajpoudel","tier":"Expert","tierInt":2,"userId":4484287,"userName":"nirajpoudel"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4287407-kg.png","displayName":"landlord","profileUrl":"/landlord","tier":"Expert","tierInt":2,"userId":4287407,"userName":"landlord"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6990402-gr.jpg","displayName":"mysar ahmad bhat","profileUrl":"/mysarahmadbhat","tier":"Contributor","tierInt":1,"userId":6990402,"userName":"mysarahmadbhat"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5221271-kg.jpg","displayName":"Anurag Mishra","profileUrl":"/anuragmishra2311","tier":"Contributor","tierInt":1,"userId":5221271,"userName":"anuragmishra2311"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5500209-kg.jpeg","displayName":"Samuel Yawson","profileUrl":"/samuelyawson","tier":"Contributor","tierInt":1,"userId":5500209,"userName":"samuelyawson"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2956995-kg.jpg","displayName":"João Felipe","profileUrl":"/docstein","tier":"Contributor","tierInt":1,"userId":2956995,"userName":"docstein"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4094910-kg.jpg","displayName":"Nizar Haider","profileUrl":"/nizarhaider","tier":"Contributor","tierInt":1,"userId":4094910,"userName":"nizarhaider"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Sanju Daddy","profileUrl":"/sanjudaddy","tier":"Novice","tierInt":0,"userId":4266182,"userName":"sanjudaddy"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3435199-gr.jpg","displayName":"Lokesh Vashishtha","profileUrl":"/vlokesh99","tier":"Novice","tierInt":0,"userId":3435199,"userName":"vlokesh99"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Aizhan Degtyareva","profileUrl":"/aizhandegtyareva","tier":"Novice","tierInt":0,"userId":4649602,"userName":"aizhandegtyareva"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"basmah zahid","profileUrl":"/basmahzahid","tier":"Novice","tierInt":0,"userId":4986852,"userName":"basmahzahid"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4996427-kg.JPG","displayName":"Ashreet sangotra","profileUrl":"/ashreetsangotra","tier":"Novice","tierInt":0,"userId":4996427,"userName":"ashreetsangotra"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Harsh Vardhan Rathore","profileUrl":"/harshvardhanrathore","tier":"Novice","tierInt":0,"userId":5149840,"userName":"harshvardhanrathore"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"anshu","profileUrl":"/anshubhoyar","tier":"Novice","tierInt":0,"userId":3662726,"userName":"anshubhoyar"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3997679-fb.jpg","displayName":"Maggie Zhang","profileUrl":"/maggiezigzag","tier":"Novice","tierInt":0,"userId":3997679,"userName":"maggiezigzag"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"AMAR RAO","profileUrl":"/amarrao","tier":"Novice","tierInt":0,"userId":4092782,"userName":"amarrao"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2545303-kg.jpeg","displayName":"CristinaMarsh","profileUrl":"/cristinamarsh","tier":"Novice","tierInt":0,"userId":2545303,"userName":"cristinamarsh"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5903665-kg.jpg","displayName":"Marife Adonis","profileUrl":"/marifeadonis","tier":"Novice","tierInt":0,"userId":5903665,"userName":"marifeadonis"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"JIGAR 7111","profileUrl":"/jigar7111","tier":"Novice","tierInt":0,"userId":5945068,"userName":"jigar7111"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Athiraadi","profileUrl":"/athiraadi","tier":"Novice","tierInt":0,"userId":5956222,"userName":"athiraadi"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Isha Rajput","profileUrl":"/isharajput","tier":"Novice","tierInt":0,"userId":5958803,"userName":"isharajput"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Kashish bhambri ","profileUrl":"/kashishbhambri","tier":"Novice","tierInt":0,"userId":6126567,"userName":"kashishbhambri"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Bela2020","profileUrl":"/bela2020","tier":"Novice","tierInt":0,"userId":6128813,"userName":"bela2020"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"KanikaNegi04","profileUrl":"/kanikanegi04","tier":"Novice","tierInt":0,"userId":6211233,"userName":"kanikanegi04"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Kayla S Reisenauer","profileUrl":"/kaylasreisenauer","tier":"Novice","tierInt":0,"userId":6353853,"userName":"kaylasreisenauer"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Aditya N Bhatt","profileUrl":"/adityab24840","tier":"Novice","tierInt":0,"userId":6435864,"userName":"adityab24840"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Ramyavishnu","profileUrl":"/ramyavishnu","tier":"Novice","tierInt":0,"userId":6491352,"userName":"ramyavishnu"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"SHERIL S THOMAS","profileUrl":"/sherilsthomas","tier":"Novice","tierInt":0,"userId":6520202,"userName":"sherilsthomas"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"MONALISHA SWAIN.","profileUrl":"/monalishaswain","tier":"Novice","tierInt":0,"userId":6685147,"userName":"monalishaswain"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Aniket Das","profileUrl":"/dasket","tier":"Novice","tierInt":0,"userId":4458156,"userName":"dasket"}]},"readerGroupId":null,"writerGroupId":null,"collaborators":{"owner":{"userId":3474868,"groupId":null,"groupMemberCount":null,"profileUrl":"/greeshmagirish","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3474868-kg.JPG","name":"Greeshma","slug":"greeshmagirish","userTier":2,"joinDate":null,"type":"owner","isUser":true,"isGroup":false},"collaborators":[]},"isCollaborator":false,"deletionNeedsReview":false,"hasDatasetDoiApproved":false,"canSeeConfigAsCode":true,"canSeeDatasetTasks":false,"canCreateDatasetTasks":true,"blockTaskCreation":false,"canSeeDatasetHashLink":true,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","datasetHashLink":null,"datasetId":423357,"isRemoved":false,"isVersionRemoved":false,"isFeatured":false,"isSuperFeatured":false,"scheduledToBeFeatured":null,"scheduledToBeUnFeatured":null,"scheduledToBeSuperFeatured":null,"scheduledToBeUnSuperFeatured":null,"datasetVersionId":807380,"datasetVersionNumber":1,"lastVersionNumber":1,"datasetUrl":"/greeshmagirish/crime-against-women-20012014-india","datasetExternalUrl":"https://kaggle.com/greeshmagirish/crime-against-women-20012014-india","originalImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/423357/807380/cdafc0a96a9087212c5dca735d256af9/data-original.jpg?t=2019-12-03-11-45-31","coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/423357/807380/cdafc0a96a9087212c5dca735d256af9/dataset-cover.jpg?t=2019-12-03-11-45-31","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/423357/807380/cdafc0a96a9087212c5dca735d256af9/dataset-card.jpg?t=2019-12-03-11-45-31","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/423357/807380/cdafc0a96a9087212c5dca735d256af9/dataset-thumbnail.jpg?t=2019-12-03-11-45-31","license":{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":null},"voteCount":34,"upVoteUrl":"/greeshmagirish/crime-against-women-20012014-india/vote","creatorUserId":3474868,"creatorDisplayName":"Greeshma","ownerTwitter":null,"lastUpdated":"2019-11-22T10:53:35.103Z","downloadUrl":"/greeshmagirish/crime-against-women-20012014-india/download","newNotebookUrl":"/code/new?datasetVersionId=807380","newScriptUrl":"/code/scripts/new?datasetVersionId=807380","hasAlreadyVotedUp":false,"isOldDatasetVersion":false,"numberOfViews":7266,"numberOfDownloads":1074,"numberOfScripts":8,"numberOfTopics":0,"numberOfTasks":0,"canEdit":false,"canPerformOwnerTasks":false,"canEditSlug":false,"canEditPublishStatus":false,"canEditFeatureStatus":false,"canEditDescription":false,"hideVersionStatuses":true,"cardImageLeft":1000,"cardImageTop":0,"cardImageWidth":4000,"cardImageHeight":4000,"coverImageLeft":266,"coverImageTop":1586,"coverImageWidth":5253,"coverImageHeight":1106,"datasetVersions":[{"id":807380,"slug":"crime-against-women-20012014-india","name":"Crime Against Women 2001-2014 (India)","creationDate":"2019-11-22T10:53:35.103Z","versionNumber":1,"versionNotes":"Initial release","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/423357/807380/cdafc0a96a9087212c5dca735d256af9/dataset-thumbnail.jpg?t=2019-12-03-11-45-31","datasetVersionUrl":"/greeshmagirish/crime-against-women-20012014-india/version/1","status":"ready","userMessage":null,"isRemoved":false,"creator":{"id":3474868,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3474868-kg.JPG","isOrganization":false,"name":"Greeshma","profileUrl":"/greeshmagirish","slug":"greeshmagirish","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},"userSpecifiedSources":"https://data.gov.in/","doi":null,"databundleVersionId":829562}],"datasetVersionTotalCount":1,"feed":[],"topicId":null,"isNewTopic":false,"canSeeDeletionButton":false,"checklistDismissed":false,"type":"fileset","diffType":"versioned","checklistCollapsed":false,"isInFlight":false,"maintainerOrganization":null,"createdByKernel":null,"usabilityRating":{"score":1.0,"columnDescriptionScore":1.0,"coverImageScore":1.0,"fileDescriptionScore":1.0,"fileFormatScore":1.0,"licenseScore":1.0,"overviewScore":1.0,"provenanceScore":1.0,"publicKernelScore":1.0,"subtitleScore":1.0,"tagScore":1.0,"updateFrequencyScore":1.0},"bookmarked":false,"licenseGroups":[{"id":1,"name":"Creative Commons","licenses":[{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":1},{"id":3,"name":"CC BY-NC-SA 4.0","description":"CC BY-NC-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/","displaySequence":2},{"id":8,"name":"CC BY-SA 4.0","description":"CC BY-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/4.0/","displaySequence":3},{"id":10,"name":"CC BY-SA 3.0","description":"CC BY-SA 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/3.0/","displaySequence":4},{"id":13,"name":"Attribution 4.0 International (CC BY 4.0)","description":"CC-BY 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/4.0/","displaySequence":5},{"id":14,"name":"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)","description":"CC-BY-NC 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc/4.0/","displaySequence":6},{"id":16,"name":"Attribution 3.0 Unported (CC BY 3.0)","description":"CC BY 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/","displaySequence":7},{"id":17,"name":"Attribution 3.0 IGO (CC BY 3.0 IGO)","description":"CC BY 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/igo/","displaySequence":8},{"id":19,"name":"Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)","description":"CC BY-NC-SA 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/3.0/igo/","displaySequence":9},{"id":22,"name":"Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)","description":"CC BY-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nd/4.0/","displaySequence":10},{"id":23,"name":"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)","description":"CC BY-NC-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/","displaySequence":11}],"displaySequence":1},{"id":2,"name":"GPL","licenses":[{"id":9,"name":"GPL 2","description":"GPL 2 \u003ca href=\u0022http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html","displaySequence":1},{"id":25,"name":"GNU Lesser General Public License 3.0","description":"LGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/lgpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/lgpl-3.0.html","displaySequence":2},{"id":26,"name":"GNU Affero General Public License 3.0","description":"AGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/agpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/agpl-3.0.html","displaySequence":3},{"id":27,"name":"GNU Free Documentation License 1.3","description":"FDL 1.3 \u003ca href=\u0022http://www.gnu.org/licenses/fdl-1.3.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/fdl-1.3.html","displaySequence":4}],"displaySequence":2},{"id":3,"name":"Open Data Commons","licenses":[{"id":5,"name":"Database: Open Database, Contents: Database Contents","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: Database Contents \u003ca href=\u0022http://opendatacommons.org/licenses/dbcl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://opendatacommons.org/licenses/dbcl/1.0/","displaySequence":1},{"id":6,"name":"Database: Open Database, Contents: © Original Authors","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/","displaySequence":2},{"id":15,"name":"ODC Public Domain Dedication and Licence (PDDL)","description":"PDDL  \u003ca href=\u0022https://opendatacommons.org/licenses/pddl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/pddl/1.0/","displaySequence":3},{"id":24,"name":"ODC Attribution License (ODC-By)","description":"ODC-BY 1.0 \u003ca href=\u0022https://opendatacommons.org/licenses/by/1-0/index.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/by/1-0/index.html","displaySequence":4}],"displaySequence":3},{"id":6,"name":"Community Data License","licenses":[{"id":20,"name":"Community Data License Agreement - Permissive - Version 1.0","description":"CDLA Permissive 1.0 \u003ca href=\u0022https://cdla.io/permissive-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/permissive-1-0/","displaySequence":1},{"id":21,"name":"Community Data License Agreement - Sharing - Version 1.0","description":"CDLA Sharing 1.0 \u003ca href=\u0022https://cdla.io/sharing-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/sharing-1-0/","displaySequence":2}],"displaySequence":4},{"id":4,"name":"Special","licenses":[{"id":7,"name":"World Bank Dataset Terms of Use","description":"World Bank Dataset Terms of Use \u003ca href=\u0022https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets","displaySequence":1},{"id":2,"name":"Reddit API Terms","description":"Reddit API Terms \u003ca href=\u0022https://www.reddit.com/wiki/api\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.reddit.com/wiki/api","displaySequence":2},{"id":18,"name":"U.S. Government Works","description":"U.S. Government Works \u003ca href=\u0022https://www.usa.gov/government-works/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.usa.gov/government-works/","displaySequence":3},{"id":28,"name":"EU ODP Legal Notice","description":"EU ODP Legal Notice \u003ca href=\u0022https://ec.europa.eu/info/legal-notice_en\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://ec.europa.eu/info/legal-notice_en","displaySequence":4}],"displaySequence":5},{"id":5,"name":"Other","licenses":[{"id":11,"name":"Data files © Original Authors","description":"Data files © Original Authors","url":null,"displaySequence":1},{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":2},{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":3}],"displaySequence":6}],"owners":[{"id":0,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/","isOrganization":false,"name":null,"profileUrl":"/","slug":null,"maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},{"id":3474868,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3474868-kg.JPG","isOrganization":false,"name":"Greeshma","profileUrl":"/greeshmagirish","slug":"greeshmagirish","maxFileSizeBytes":null,"userTier":2,"organizationMemberCount":null}],"referrer":null,"convertToStandardCsvFormat":false,"overview":"Crimes Committed Against Women in India","description":"This data is collated from https://data.gov.in. It has state-wise and district level data on the various crimes committed against women between 2001 to 2014. Some crimes that are included are Rape, Kidnapping and Abduction, Dowry Deaths etc. ","actions":[],"flags":[],"title":"Crime Against Women 2001-2014 (India)","slug":"crime-against-women-20012014-india","licenseId":12,"data":{"firestorePath":"8tqigEn3m4dJynjn7ohg/versions/4hdrOGynSlgDtnWrWXJT","databundleVersionId":829562,"databundle":{"type":"databundle","databundleInfo":{"currentDatabundleVersionId":829562,"databundleType":"dataset","diffType":"versioned","creationDate":"2019-11-22T10:53:35.1418342Z","creatorUserId":3474868,"removalDate":null,"currentGoodVersionKey":"4hdrOGynSlgDtnWrWXJT","lastestVersionKey":"4hdrOGynSlgDtnWrWXJT","versions":{"totalChildren":1,"count":0,"children":[]}},"datasetInfo":{"datasetId":423357,"datasetSlug":"/greeshmagirish/crime-against-women-20012014-india","isPrivate":true},"competitionInfo":null,"remoteDatasourceInfo":null,"bigqueryInfo":null,"githubInfo":null,"key":"8tqigEn3m4dJynjn7ohg","path":"8tqigEn3m4dJynjn7ohg","legacyEntityId":437364,"relativeUrl":"","name":"Crime Against Women 2001-2014 (India)","description":null},"databundleVersion":{"type":"databundleVersion","databundleVersionInfo":{"versionNumber":1,"versionNotes":"Initial release","creatorUserId":3474868,"creationDate":"2019-11-22T10:53:35.1418353Z","removalDate":null,"databundleVersionType":"fileset","objectTypeCount":{}},"datasetVersionInfo":{"datasetVersionId":807380},"statusInfo":{"status":"ready","statusMessage":"Ready","percentageCompleted":1.0},"exceptionInfo":{"criticalException":null,"warningExceptions":[]},"filesetInfo":{"totalSize":517571,"directories":{"totalChildren":0,"count":0,"children":[]},"files":{"totalChildren":1,"count":0,"children":[]}},"originalCompressionInfo":null,"bundleCompressionInfo":{"filename":"archive.zip","fileExtension":".zip","fileSize":178060,"contentEncoding":"application/zip","contentMD5":"6CUFwY0WggwFT/YPzMzNFw==","archiveGcsUrl":"gs://kaggle-data-sets/423357/807380/bundle/archive.zip","creationLastUpdate":"2019-11-22T10:53:37.6253131Z","creationPercentComplete":1.0},"bigquerySnapshotInfo":null,"storageInfo":{"uploadDataLocation":{"bucket":"kaggle-data-sets","path":"423357/807380/upload"},"rawDataLocation":{"bucket":"kagglesdsdata","path":"datasets/423357/807380"},"individualCompressedLocation":{"bucket":"kaggle-data-sets","path":"423357/807380/compressed"},"bundleArchiveLocation":{"bucket":"kaggle-data-sets","path":"423357/807380/bundle/archive.zip"},"fileSystemLocation":{"bucket":"kaggle-data-sources","path":"datasets/423357/807380/fs/embedded_fs"}},"fileSummaryInfo":{"fileTypes":[{"extension":".csv","fileCount":1,"totalSize":517571}],"sampleFileNames":["crimes_against_women_2001-2014.csv"],"totalFileCount":1},"columnSummaryInfo":{"columnTypes":[{"columnType":"Integer","columnCount":9,"rowCount":96093},{"columnType":"String","columnCount":2,"rowCount":21354}],"sampleColumnNames":["Cruelty by Husband or his Relatives","Insult to modesty of Women","Assault on women with intent to outrage her modesty","Dowry Deaths","Kidnapping and Abduction","Rape","Year","DISTRICT","STATE/UT",""],"totalColumnCount":11},"externalCopyInfo":null,"originalRemoteUrlInfo":null,"key":"4hdrOGynSlgDtnWrWXJT","path":"8tqigEn3m4dJynjn7ohg/versions/4hdrOGynSlgDtnWrWXJT","legacyEntityId":829562,"relativeUrl":"","name":"Version 1","description":"Initial release"}},"isPrivate":false,"owner":{"id":3474868,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3474868-kg.JPG","isOrganization":false,"name":"Greeshma","profileUrl":"/greeshmagirish","slug":"greeshmagirish","maxFileSizeBytes":null,"userTier":2,"organizationMemberCount":null}});performance && performance.mark && performance.mark("DatasetContainer.componentCouldBootstrap");</script><script nonce="zNiT1VXVeC/FKhU0tqzVQg==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="zNiT1VXVeC/FKhU0tqzVQg==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+</div>
+
+
+
+
+    </main>
+</body>
+</html>
